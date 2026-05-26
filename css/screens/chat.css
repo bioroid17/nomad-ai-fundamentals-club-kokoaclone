@@ -3,14 +3,6 @@
   height: 500vh;
 }
 
-#chat-screen > img {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
 #chat-screen .alt-header,
 #chat-screen .status-bar {
   background-color: var(--blue);

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <img
+      src="https://static.wikia.nocookie.net/megaman/images/9/96/Neo_arcadia_tower.png"
+    />
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span>
+          <a href="find.html">
+            <i class="fas fa-search fa-lg"></i>
+          </a>
+        </span>
+        <span class="setting">
+          <span class="reddot badge"></span>
+          <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://static.wikia.nocookie.net/megaman/images/e/e1/Zan%27ei_Gundan_Emblem.png"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Ghost</h4>
+              <h6 class="user-component__subtitle">From the shadows, I come</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <i class="fas fa-user-plus"></i>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://static.wikia.nocookie.net/megaman/images/1/19/Jin%27en_Gundan_Emblem.png"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Lizard</h4>
+              <h6 class="user-component__subtitle">bUrn tO ThE GRoUnd</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <i class="fas fa-user-plus"></i>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://static.wikia.nocookie.net/megaman/images/8/83/Rekku_Gundan_Emblem.png"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Bird</h4>
+              <h6 class="user-component__subtitle">Wheeeeeeee</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <i class="fas fa-user-plus"></i>
+          </div>
+        </div>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4 class="open-chat__title">Open Chat</h4>
+          <span>
+            <a href="openchats.html"
+              >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
+            </a>
+          </span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#neo#arcadia</h5>
+            <h6 class="open-post__hashtags">#megaman#zero#fans</h6>
+            <div class="open-post__members">
+              <img
+                src="https://static.wikia.nocookie.net/megaman/images/7/7e/Z2_MotherElf.gif"
+              />
+              <span class="open-post__member-count">3205 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://static.wikia.nocookie.net/megaman/images/7/7f/Neo_Arcadia.PNG"
+              />
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i><span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="openchats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fa-regular fa-comments fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn selected">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="reddot badge"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/181236ce8a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

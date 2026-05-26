@@ -162,7 +162,7 @@
 }
 
 .reply__column:last-child > i,
-.reply__column:last-child button {
+.reply__column:last-child .button {
   position: absolute;
   right: 3px;
   top: 3px;
@@ -172,31 +172,34 @@
   top: 15px;
 }
 
-.reply__column button {
+.reply__column .button {
   background-color: var(--blue);
   border: none;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.reply__column button i {
+.reply__column .button i {
   opacity: 1;
 }
 
-.reply__column button:focus,
-.reply__column button:active {
+.reply__column .button:focus,
+.reply__column .button:active {
   outline: none;
 }
 
 .reply .reply__column:first-child,
 .reply .fa-smile-wink,
-.reply button {
+.reply .button {
   transition: opacity 0.3s ease-in-out;
 }
 
 .reply:focus-within .reply__column:first-child,
 .reply:focus-within .fa-smile-wink,
-.reply:focus-within button {
+.reply:focus-within .button {
   opacity: 0;
 }
 
